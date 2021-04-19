@@ -22,7 +22,7 @@ export default function LoginScreen() {
   const signInWithGoogleAsync = async () => {
         try {
             const result = await Google.logInAsync({
-                androidClientId: '297515883518-mk3b0licousgn1ed42tbntrbhjnldd4d.apps.googleusercontent.com',
+                androidClientId: 'YOUR_ANDROID_CLIENT_ID',
                 
                 scopes: ['profile', 'email'],
                 permissions: ['public_profile', 'email', 'gender', 'location']
@@ -48,7 +48,7 @@ export default function LoginScreen() {
     }
   const facebookLogIn = async () => {
     try {
-      await Facebook.initializeAsync('1043311779525300');
+      await Facebook.initializeAsync('YOUR_FB_APP_ID');
       const {
         type,
         token,
