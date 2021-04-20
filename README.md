@@ -1,5 +1,5 @@
 # Spark
-React Native App with Social Media Sign-In Integration.
+React Native App with Social Login Integration.
 Developed in Expo.
 Supports following Platforms:
   * Facebook
